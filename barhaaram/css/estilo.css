@@ -1,0 +1,500 @@
+@charset "UTF-8";
+
+h2.letra-evento{
+    color: black;
+}
+
+img.sumir{
+  border-radius: 2em;
+    margin-top: -2em;
+    box-shadow: 1px 1px 12px 6px white;
+}
+
+h1.letra-foto{
+  margin-top: -0.4em;
+}
+
+button.botao-fidelidade{
+  border-radius: 2em;
+  background-color: white;
+  box-shadow: 2px 8px 20px 0px rgb(0 0 0 / 30%);
+}
+
+a.botao-evento{
+  border-radius: 2em;
+  box-shadow: 2px 8px 20px 0px rgb(0 0 0 / 30%);
+  text-decoration: none;
+}
+
+.cl-copyright {
+    margin-top: 2.1rem;
+  }
+  
+  .cl-copyright span {
+    font-size: 0.8em;
+    display: inline-block;
+    color: black;
+  }
+  .cl-copyright span::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    /*color: rgba(255, 255, 255, 0.1);*/
+  }
+  .cl-copyright span:last-child::after {
+    display: none;
+}
+
+.s-about {
+    padding-bottom: 2em;
+    position: relative;
+  }
+
+button.botao-foto{
+    padding: 1em;
+    border-radius: 2em 2em;
+    background-color: black;
+}
+
+button.botao-foto a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+img.ftgrande{
+    min-width: 112%;
+    height: 20em;
+    margin-left: -6em;
+    margin-top: -4em;
+}
+
+.spanmenu{
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+
+.fonte{
+  font-size: 1.6em;
+}
+
+ul#album-fotos {
+    margin: 2em 2em;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 240px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span {
+        /*opacity: 0;*/
+        color: #ffffff;
+        text-shadow: 1px 1px 1px #000000;
+        background-color: rgb(0 0 0 / 72%);
+        font-size: 1em;
+        line-height: 2em;
+}
+
+h3.h1-titulo{
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0 25px 0;
+    font-size: 3.6em;
+    line-height: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #000;
+  }
+
+  p img.img-destaque{
+    margin-left: 3em;
+    border-radius: 6em 6em;
+  }
+
+b.titulo-nossoespaco{
+    text-align: center;
+    font-size: 1.6em;
+    margin-left: 3em;
+  }
+
+  p.nossoespaco{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #000;
+  }
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.2);
+}
+
+ul#album-fotos li:hover span {
+        opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+    background: url('../imgs/imgpadrao.png') no-repeat;/*tds as img tem q ser 660 por 480*/
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+.testimonials-header {
+    text-align: center;
+    margin-top: 7.2rem;
+  }
+  
+  .testimonials {
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-top: 4.2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+  
+  .testimonials__slider {
+    position: relative;
+  }
+  .testimonials__slider .slick-slide {
+    outline: none;
+  }
+  .testimonials__slider .slick-dots {
+    display: block;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 1em 0 0 0;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2; 
+  }
+  .testimonials__slider .slick-dots li {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 9px;
+    cursor: pointer;
+  }
+  .testimonials__slider .slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+  }
+  .testimonials__slider .slick-dots li button:hover,
+  .testimonials__slider .slick-dots li button:focus {
+    outline: none;
+  }
+  .testimonials__slider .slick-dots li.slick-active button,
+  .testimonials__slider .slick-dots li:hover button {
+    background: #000000;
+  }
+  
+  .testimonials__slide {
+    position: relative;
+    padding-top: 4.5rem;
+    padding-left: 12rem;
+    padding-right: 3rem;
+  }
+  .testimonials__slide::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 3.9rem;
+    position: absolute;
+    left: calc(7.8rem / 2);
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonials__avatar {
+    width: 7.8rem;
+    height: 7.8rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 4.8rem;
+    outline: none;
+  }
+  
+  .testimonials__author {
+    margin-top: 0rem;
+    font-family: "metropolis-bold", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #000000;
+  }
+  .testimonials__author span {
+    display: block;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: rgba(85, 85, 85, 0.7);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    img.ftgrande{
+      min-width: 117%;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    img.ftgrande{
+      min-width: 118%;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .s-about {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+      }
+    .cl-copyright {
+        margin-top: 3rem;
+    }
+    img.ftgrande{
+      min-width: 120%;
+    }
+  }
+
+@media only screen and (max-width: 1100px) {
+    .testimonials {
+      font-size: 1.7rem;
+    }
+  
+    .testimonials__slide {
+      padding-left: 9.5rem;
+    }
+    .testimonials__slide::before {
+      left: calc(6.6rem / 2);
+    }
+  
+    .testimonials__avatar {
+      width: 6.6rem;
+      height: 6.6rem;
+    }
+    img.ftgrande {
+      min-width: 122%;
+  }
+  }
+
+  @media only screen and (max-width: 990px) {
+    img.ftgrande {
+      min-width: 113%;
+  }
+  }
+
+  @media only screen and (max-width: 980px) {
+    img.ftgrande {
+      min-width: 114%;
+  }
+  }
+
+  @media only screen and (max-width: 900px) {
+    img.ftgrande {
+      min-width: 116%;
+  }
+  }
+
+@media only screen and (max-width: 800px) {
+    .s-about {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .cl-copyright {
+      padding-right: 7.8rem;
+    }
+    img.ftgrande {
+      min-width: 118%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img.ftgrande {
+    min-width: 120%;
+}
+}
+
+@media only screen and (max-width: 650px) {
+  img.ftgrande{
+    min-width: 124%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonials-header h1 {
+      font-size: 2.7rem;
+    }
+  
+    .testimonials {
+      margin-top: 3rem;
+    }
+  
+    .testimonials__slide {
+      padding: 13.2rem 0 0;
+      text-align: center;
+    }
+    .testimonials__slide::before {
+      left: 50%;
+    }
+  
+    .testimonials__avatar {
+      left: 50%;
+      margin-left: -3.3rem;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    img.ftgrande{
+      margin-left: -5em;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    p.p-nossoespaco{
+      width: 16em;
+      margin-left: 2em;
+    }
+    .s-about{
+      padding-bottom: 4em;
+    }
+  }
+
+@media only screen and (max-width: 480px) {  
+    .cl-copyright {
+      margin-top: 0;
+    }
+  }
+
+@media only screen and (max-width: 450px) {
+    .s-about{
+      padding-bottom: 2em;
+    }
+    img.ftgrande{
+      margin-left: -8em;
+      margin-top: -3em;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .s-about {
+        padding-top: 2em;
+      }
+    .masonry-wrap {
+        width: auto;
+    }
+    .cl-copyright {
+      margin-top: 9rem;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .cl-copyright span {
+      font-size: 14px;
+    }
+    .cl-copyright span::after {
+      display: none;
+    }
+    img.ftgrande {
+      margin-left: -10em;
+      width: 164%;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+  img.ftgrande {
+    margin-left: -6em;
+    width: 166%;
+  }
+}

@@ -1,0 +1,1 @@
+Esse arquivo o projeto no requisito de validar senha no localhost não funciona mas quando manda pro ar ele funciona
